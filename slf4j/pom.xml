@@ -12,12 +12,20 @@
 
     <artifactId>libby-slf4j</artifactId>
 
+    <repositories>
+        <repository>
+            <id>lielamar-repo</id>
+            <url>https://api.lielamar.com/repository/maven-public/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>net.byteflux</groupId>
             <artifactId>libby-core</artifactId>
             <version>${project.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>

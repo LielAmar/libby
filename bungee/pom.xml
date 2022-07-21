@@ -17,6 +17,11 @@
             <id>spigotmc</id>
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
         </repository>
+
+        <repository>
+            <id>lielamar-repo</id>
+            <url>https://api.lielamar.com/repository/maven-public/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -25,6 +30,7 @@
             <artifactId>libby-core</artifactId>
             <version>${project.version}</version>
         </dependency>
+
         <dependency>
             <groupId>net.md-5</groupId>
             <artifactId>bungeecord-api</artifactId>

@@ -17,6 +17,11 @@
             <id>velocity</id>
             <url>https://repo.velocitypowered.com/snapshots/</url>
         </repository>
+
+        <repository>
+            <id>lielamar-repo</id>
+            <url>https://api.lielamar.com/repository/maven-public/</url>
+        </repository>
     </repositories>
 
     <dependencies>

@@ -17,6 +17,11 @@
             <id>nukkitx</id>
             <url>https://repo.nukkitx.com/maven-snapshots/</url>
         </repository>
+
+        <repository>
+            <id>lielamar-repo</id>
+            <url>https://api.lielamar.com/repository/maven-public/</url>
+        </repository>
     </repositories>
 
     <dependencies>

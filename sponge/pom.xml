@@ -17,6 +17,11 @@
             <id>sponge</id>
             <url>https://repo.spongepowered.org/maven/</url>
         </repository>
+
+        <repository>
+            <id>lielamar-repo</id>
+            <url>https://api.lielamar.com/repository/maven-public/</url>
+        </repository>
     </repositories>
 
     <dependencies>
